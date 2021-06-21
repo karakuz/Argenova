@@ -47,7 +47,7 @@
           </div>
         </div>
         <div class="col-lg-8 form-div">
-          <form>
+          <form id="contact" onsubmit="validateForm(event)">
             <div class="row">
               <div class="form-header">
                 <span class="form-title mb-4">GET IN TOUCH</span>
@@ -55,29 +55,29 @@
               </div>
               
               <div class="col-lg-6 mb-4 col-md-6 col-sm-6">
-                <input type="text" class="form-control" placeholder="Name">
+                <input type="text" class="form-control" placeholder="Name" oninput="clearError(event)">
               </div>
               <div class="col-lg-6 mb-4 col-md-6 col-sm-6">
-                <input type="text" class="form-control" placeholder="Last Name">
+                <input type="text" class="form-control" placeholder="Last Name" oninput="clearError(event)">
               </div>
               <div class="col-lg-6 mb-4 col-md-6 col-sm-6">
-                <input type="text" class="form-control" placeholder="E-mail">
+                <input type="email" class="form-control" placeholder="E-mail" oninput="clearError(event)">
               </div>
               <div class="col-lg-6 mb-4 col-md-6 col-sm-6">
-                <input type="Password" class="form-control" placeholder="Password">
+                <input type="Password" class="form-control" placeholder="Password" oninput="clearError(event)">
               </div>
               <div class="col-lg-6 mb-4 col-md-6 col-sm-6">
-                <input type="text" class="form-control" placeholder="Phone">
+                <input type="text" class="form-control" placeholder="Phone" style="color: black" oninput="clearError(event)">
               </div>
               <div class="col-lg-6 mb-4 col-md-6 col-sm-6">
-                <select class="form-select">
+                <select class="form-select" onchange="clearError(event)">
                   <option selected>Gender</option>
                   <option value="M">Male</option>
                   <option value="F">Female</option>
                 </select>
               </div>
               <div class="col-lg-12 mb-4">
-                <textarea class="form-control" placeholder="Description"></textarea>
+                <textarea class="form-control" placeholder="Description" oninput="clearError(event)"></textarea>
               </div>
 
               <div>
@@ -88,5 +88,7 @@
         </div>
       </div>
     </div>
+
+    <script src="./contact.js"></script>
   </body>
 </html>
