@@ -63,12 +63,45 @@
           </button>
           <div class="menu-left collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="menu-left-children fw-bold ls-none navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">Home</li>
+              <li class="nav-item">
+                <a class="nav-link cw-p0" href="#" data-bs-toggle="dropdown">Home <i class="fa fa-plus fz-10"></i></a>
+                <ul class="dropdown-menu p-4">
+                  <li><a class="dropdown-item" href="#">Multipages</a></li>
+                  <li><a class="dropdown-item" href="#">One pages</a></li>
+                </ul>
+              </li>
               <li class="nav-item">About</li>
-              <li class="nav-item">Services</li>
-              <li class="nav-item">Pages</li>
-              <li class="nav-item">Blog</li>
-              <li class="nav-item">Contact</li>
+              <li class="nav-item">
+                <a class="nav-link cw-p0" href="#" data-bs-toggle="dropdown">Services <i class="fa fa-plus fz-10"></i></a>
+                <ul class="dropdown-menu p-4">
+                  <li><a class="dropdown-item" href="#">Software Development</a></li>
+                  <li><a class="dropdown-item" href="#">Web Development</a></li>
+                  <li><a class="dropdown-item" href="#">Analytic Solutions</a></li>
+                  <li><a class="dropdown-item" href="#">Cloud And DevOps</a></li>
+                  <li><a class="dropdown-item" href="#">Project Design</a></li>
+                  <li><a class="dropdown-item" href="#">Data Center</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link cw-p0" href="#" data-bs-toggle="dropdown">Pages <i class="fa fa-plus fz-10"></i></a>
+                <ul class="dropdown-menu p-4">
+                  <li><a class="dropdown-item" href="#">Services</a></li>
+                  <li><a class="dropdown-item" href="#">Our Team</a></li>
+                  <li><a class="dropdown-item" href="#">Single Team</a></li>
+                  <li><a class="dropdown-item" href="#">Case Studies</a></li>
+                  <li><a class="dropdown-item" href="#">Shop</a></li>
+                  <li><a class="dropdown-item" href="#">Pricing</a></li>
+                  <li><a class="dropdown-item" href="#">Faq</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link cw-p0" href="blog.php" data-bs-toggle="dropdown">Blog <i class="fa fa-plus fz-10"></i></a>
+                <ul class="dropdown-menu p-4">
+                  <li><a class="dropdown-item" href="blog.php">Blog</a></li>
+                  <li><a class="dropdown-item" href="blog-details.php">Blog Details</a></li>
+                </ul>
+              </li>
+              <li class="nav-item"><a href="contact.php" style="color: white">Contact</a></li>
             </ul>
           </div>
 
