@@ -1,0 +1,40 @@
+.login-form > div > input,
+.register-form > div > input{
+  border: 1px solid #ced4da !important;
+  padding: .375rem .75rem !important;
+}
+
+.register-header,
+.login-header{
+  font-weight: bold;
+}
+
+.account-div{
+  padding: 0 2rem;
+}
+
+.account-submit,
+.account-register{
+  background-image: linear-gradient(90deg, #0b298a 0%, #549df5 100%);
+  padding: 0.5rem 2rem !important;
+  font-size: 1rem !important;
+  border: 0 !important;
+}
+
+#remember{
+  padding: 0 !important;
+}
+
+div.ext-box { 
+  margin-left: 1rem;
+  display: table; 
+  width:100%;
+}
+div.int-box { 
+  display: table-cell; 
+  vertical-align: middle; 
+}
+
+.required{
+  color: blue;
+}
