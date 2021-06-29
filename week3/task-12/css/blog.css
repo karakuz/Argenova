@@ -1,0 +1,141 @@
+.blog-card{
+  border-radius: 1rem;
+  padding: 1rem 1rem 3rem;
+  box-shadow: 0 2px 20px rgb(0 0 0 / 8%);
+}
+
+.post{
+  margin: 0 0 4rem 0;
+}
+
+.post-img{
+  max-width: -webkit-fill-available;
+  margin-bottom: 2rem;
+}
+
+
+.blog-img-anchor{
+  color:white;
+  background-image: linear-gradient(90deg, #0b298a 0%, #549df5 100%);
+  padding: 0.6rem 1.2rem;
+  border-radius: 2rem;
+  position: absolute;
+  right: 50px;
+  bottom: 50px;
+}
+
+.blog-img-anchor:hover{
+  color: white;
+  background-image: linear-gradient(270deg, #0b298a 0%, #549df5 100%);
+}
+
+.post-header{
+  display: flex;
+  color: grey;
+  margin: 1rem 0;
+}
+.post-header > *{
+  margin-right: 5px;
+}
+
+.user-icon{
+  margin-left: 10px;
+}
+
+.post-header > div > .fa-calendar-check-o::before,
+.post-header > div > .fa-user::before,
+.fa-arrow-right::before{
+  color: blue
+}
+
+.continue-reading-anchor-icon{
+  margin-left: 10px;
+}
+
+.search-input-div{
+  padding: 2rem 3rem;
+  margin-bottom: 3rem;
+}
+
+.blog-right-section-search{
+  border: 1px solid #ced4da !important;
+  max-height: 50px;
+  font-size: 0.5rem;
+}
+
+.blog-right{
+  padding: 0 3rem;
+}
+
+.search-button{
+  position: absolute;
+  right: 54px;
+  bottom: 41px;
+  border: none;
+  background-color: transparent;
+}
+
+.search-input-icon::before{
+  font-size: 20px;
+}
+
+.search-button:hover{
+  color: blue
+}
+
+.right-posts-header{
+  padding-bottom: 2rem;
+}
+
+.right-post-text{
+  padding: 0 1rem;
+}
+
+.blog-right-posts{
+  padding: 4rem 2rem;
+}
+
+.right-calender-icon{
+  font-size: 13px;
+}
+
+.post-anchor{
+  color: black;
+}
+
+.post-anchor:hover{
+  color: blue;
+}
+
+.right-post{
+  border-top: 1px solid rgb(219, 219, 219);
+  padding: 1rem 0;
+}
+
+.right-blog-categories{
+  margin-top: 3rem;
+  padding: 1rem 2rem;
+}
+
+.right-blog-categories-list{
+  list-style: none;
+  padding: 0;
+}
+
+.right-blog-categories-list > li{
+  border-top: 1px solid rgb(219, 219, 219);
+  padding: 1rem 0;
+}
+
+.right-blog-categories-header{
+  padding: 2rem 0 1rem;
+}
+
+@media only screen and (max-width: 992px) {
+  .blog-left{
+    order: 2;
+  }
+  .blog-right{
+    order: 1;
+  }
+}
